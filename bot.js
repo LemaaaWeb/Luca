@@ -7,8 +7,8 @@
  * https://discordbots.org/bot/264811613708746752
  */
 
-let bot = require("discord.js");
-var Discord = new bot.Client();
+const { Client } = require("discord.js");
+const Discord = new Client();
 const request = require('snekfetch');
 
 // ThIs EvEnT iS vErY ImPoRtAnT bEcAuSe At ThIs MoMeNt bOt St						aRtS ReCeIvEinG
